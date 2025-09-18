@@ -1,0 +1,153 @@
+import { Achievement } from '../services/achievements';
+
+export const mockAchievements: Achievement[] = [
+  {
+    _id: '1',
+    type: 'Our Star Performers',
+    studentName: 'Arjun Sharma',
+    percentage: '98.5%',
+    year: '2024',
+    details: 'Secured 98.5% in CBSE Class 12 Board Exams',
+    category: 'Academic',
+    rank: '1st',
+    exam: 'CBSE Class 12',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '2',
+    type: 'Our Star Performers',
+    studentName: 'Priya Patel',
+    percentage: '97.8%',
+    year: '2024',
+    details: 'Achieved 97.8% in CBSE Class 10 Board Exams',
+    category: 'Academic',
+    rank: '2nd',
+    exam: 'CBSE Class 10',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '3',
+    type: 'Recent Milestones',
+    title: 'JEE Advanced Success',
+    year: '2024',
+    details: '15 students from our institute qualified for JEE Advanced 2024',
+    category: 'Academic',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '4',
+    type: 'Recent Milestones',
+    title: 'NEET Achievement',
+    year: '2024',
+    details: '22 students secured admission in top medical colleges through NEET 2024',
+    category: 'Academic',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '5',
+    type: 'Success Stories',
+    studentName: 'Rahul Kumar',
+    year: '2024',
+    details: 'From struggling with mathematics to securing admission in IIT Delhi',
+    category: 'Academic',
+    quote: 'The personalized attention and expert guidance at St. Mary\'s helped me overcome my weaknesses and achieve my dreams.',
+    testimonial: 'I never thought I could crack IIT, but the dedicated teachers and systematic approach made it possible.',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '6',
+    type: 'Success Stories',
+    studentName: 'Sneha Gupta',
+    year: '2024',
+    details: 'Transformed from average student to topper with consistent guidance',
+    category: 'Academic',
+    quote: 'The supportive environment and quality education at St. Mary\'s changed my life completely.',
+    testimonial: 'I improved from 65% to 96% in just two years. The teachers here are amazing!',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '7',
+    type: 'Awards & Recognition',
+    title: 'Best Educational Institute',
+    year: '2024',
+    details: 'Awarded Best Educational Institute in the region by Education Excellence Awards',
+    category: 'Academic',
+    institution: 'Education Excellence Awards',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '8',
+    type: 'Awards & Recognition',
+    title: 'Excellence in Teaching',
+    year: '2024',
+    details: 'Dr. Rajesh Kumar awarded Best Mathematics Teacher by State Education Board',
+    category: 'Academic',
+    institution: 'State Education Board',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '9',
+    type: 'Our Star Performers',
+    studentName: 'Vikram Singh',
+    percentage: '96.2%',
+    year: '2024',
+    details: 'Secured 96.2% in CBSE Class 12 Board Exams with PCM stream',
+    category: 'Academic',
+    rank: '3rd',
+    exam: 'CBSE Class 12',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '10',
+    type: 'Recent Milestones',
+    title: '100% Pass Rate',
+    year: '2024',
+    details: 'Achieved 100% pass rate in all classes for the academic year 2023-24',
+    category: 'Academic',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '11',
+    type: 'Success Stories',
+    studentName: 'Kavya Reddy',
+    year: '2024',
+    details: 'Overcame learning difficulties to secure 94% in Class 12 and admission to top engineering college',
+    category: 'Academic',
+    quote: 'The personalized learning approach and supportive teachers at St. Mary\'s helped me discover my potential.',
+    testimonial: 'I struggled with mathematics initially, but the step-by-step teaching method and extra support classes made all the difference. Now I\'m pursuing my dream of becoming an engineer!',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    _id: '12',
+    type: 'Recent Milestones',
+    title: 'Digital Learning Initiative',
+    year: '2024',
+    details: 'Successfully implemented comprehensive digital learning platform serving 500+ students',
+    category: 'Academic',
+    isActive: true,
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z'
+  }
+];
